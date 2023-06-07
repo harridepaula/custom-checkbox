@@ -26,7 +26,8 @@ body {
     position: relative;
     display: inline-block;
     padding: 1em 2em;
-    color: #555;
+    color: white;
+    background-color: #555;
     border-radius: 10px;
     font-size: 1.2em;
     transition: 0.5s;
@@ -35,12 +36,8 @@ body {
     -webkit-user-select: none;
 }
 
-#roles-list:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background: rgba(255, 255, 255, 0.1);
+#roles-checkbox:checked ~ span {
+    color: white;
+    background-color: hotpink;
+    box-shadow: 0 2px 20px hotpink;
 }

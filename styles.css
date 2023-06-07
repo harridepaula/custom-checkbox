@@ -4,17 +4,29 @@ body {
     margin: 0;
     padding: 0;
     background: #222;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     font-family: 'Inter', sans-serif;
+    margin: 20% auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    display: block;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: 3s;
+}
+
+h1:hover {
+    color: yellow;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 

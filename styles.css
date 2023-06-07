@@ -36,8 +36,20 @@ body {
     -webkit-user-select: none;
 }
 
-#roles-checkbox:checked ~ span {
+#roles-div:nth-child(3n + 1) label #roles-checkbox:checked ~ span {
     color: white;
     background-color: hotpink;
     box-shadow: 0 2px 20px hotpink;
+}
+
+#roles-div:nth-child(3n + 2) label #roles-checkbox:checked ~ span {
+    color: white;
+    background-color: #00e397;
+    box-shadow: 0 2px 20px #00e397;
+}
+
+#roles-div:nth-child(3n + 3) label #roles-checkbox:checked ~ span {
+    color: white;
+    background-color: #6947ff;
+    box-shadow: 0 2px 20px #6947ff;
 }
